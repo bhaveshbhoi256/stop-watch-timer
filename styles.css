@@ -1,0 +1,79 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Full-Screen Dark Theme */
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #121212; /* Dark gray */
+    color: #e0e0e0; /* Soft white */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 25px;
+    background: #1e1e1e; /* Slightly lighter gray */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00bcd4; /* Cool cyan */
+    margin-bottom: 15px;
+}
+
+/* Timer/Stopwatch Display */
+#stopwatch-display, #timer-display {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #00bcd4;
+}
+
+/* Control Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #00bcd4;
+    color: #121212;
+}
+
+/* Input Fields */
+input {
+    width: 80px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #555;
+    background: #2c2c2c;
+    color: #e0e0e0;
+    border-radius: 6px;
+}
+
+/* Remove Number Input Arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide Elements */
+.hidden {
+    display: none;
+}
